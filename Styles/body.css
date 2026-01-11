@@ -58,3 +58,90 @@
 .card:hover {
     background-color: antiquewhite;
 }
+
+.green-text-p {
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+
+.second-brain {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
+
+}
+
+.second-brain-content {
+    /* border: 2px solid red; */
+    width: 700px;
+    height: auto;
+}
+
+.second-brain-content-2 {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.second-brain-content-2 .list-p {
+    display: flex;
+    align-items: center;
+
+    /* border: 2px solid yellow; */
+    gap: 12px;
+
+    /* height: 8px; */
+}
+
+.second-brain-content-2 .list-p img {
+    width: 24px;
+    height: auto;
+    margin-top: 3px;
+    /* padding-top: 20px; */
+}
+
+.second-brain-content-2 .list-p p {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+    height: auto;
+}
+
+.readytothink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.btncls button {
+    /* background-color: #F95555; */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid green;
+    margin: 0 auto;
+    gap: 5px;
+    border: none;
+}
+
+.content-readytothink {
+    /* border: 2px solid blue; */
+    width: 1360px;
+    height: auto;
+    margin-bottom: 120px;
+    background-color: #F7F6F2;
+}
