@@ -1,0 +1,60 @@
+/* shared class */
+.cmn-head {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+    color: #001931;
+}
+
+.notes-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card .icon-background {
+    background-color: #F95555;
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+    width: 50px;
+    margin: 0 auto;
+}
+
+.icon-background img {
+    width: 32px;
+    height: 32px;
+}
+
+.card {
+    /* border: 2px solid blue; */
+    width: 274px;
+    height: 300px;
+    padding: 69.5px 24px 30px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.card h4 {
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: auto;
+    color: #001931;
+    text-align: center;
+}
+
+.card-box-section {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    margin: 0px 120px 48px;
+    gap: 24px;
+
+}
+
+.card:hover {
+    background-color: antiquewhite;
+}
