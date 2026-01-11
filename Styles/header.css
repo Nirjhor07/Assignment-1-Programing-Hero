@@ -1,0 +1,87 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+    padding: 16px 120px;
+    /* border: 2px solid blue; */
+    background-color: #FFFFFF;
+}
+
+
+nav {
+    display: flex;
+    /* border: 2px solid red; */
+    /* border: 2px solid blue; */
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.nav-container {
+
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    width: 1130px;
+    margin: 0;
+}
+
+nav img {
+    width: 139px;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    gap: 32px;
+    /* border: 2px solid red; */
+    padding: 0;
+
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+/* share class */
+
+/* visible button */
+.btn1 {
+    background-color: #30B868;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12.5px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: alias;
+}
+
+/* transparent button */
+.btn2 {
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 14px 24px;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
